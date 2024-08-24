@@ -1,0 +1,292 @@
+
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    box-sizing: border-box;
+}
+header {
+    background-color:  white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing:border-box ;
+    display: flex;
+}
+.logo:hover{
+    text-shadow: 0 0 25px #4f80ff;
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-btn {
+    color: ;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #f4f9ff;
+    align-items: center;
+}
+
+.intro-content h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.intro-content h2 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.intro-content p {
+    font-size: 16px;
+    max-width: 400px;
+}
+
+.intro-image img {
+    max-width: 300px;
+}
+.intro-image:hover{
+    transform: scale(1.1);
+text-shadow: #4f80ff;
+cursor: pointer;
+}
+
+.passions {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.passions h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.passion-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.passion-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.passion-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f9ff;
+    font-family: serif;
+}
+
+.portfolio-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.portfolio-grid img {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 0.01%;
+    padding-bottom: 0.007rem;
+}*/
+
+.highlight {
+    color: #4f80ff;
+}
+span{
+    color:#4f80ff;
+}
+.hi{
+    text-shadow: 0 0 25px #4f80ff;
+    cursor: pointer;
+    font-size: larger;
+}
+.chris{
+    text-shadow:;
+    cursor: pointer;
+}
+.front{
+    text-shadow:;
+    cursor: pointer;
+}
+.lio{
+    text-shadow: 0 0 25px #4f80ff;
+    cursor: pointer;
+}
+.ulm{
+    margin-left: 50rem;
+    font-weight: 500;
+margin-bottom: 0.1rem;
+
+}
+.active:hover{
+    color: #4f80ff;
+}
+.imk{
+    text-decoration: underline #4f80ff;
+    color: #4f80ff;
+}
+.alt{
+    width: 200px;
+    
+}
+.alt:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.src{
+    width: ;
+}
+.portfolio{
+
+}
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.salary-progress {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    max-width: 600px;
+    cursor: pointer;
+}
+.salary-progress:hover{
+    transform: scale(1.1);
+}
+
+.salary-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.salary-amount {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.position-title {
+    font-size: 1rem;
+    color: #666;
+    align-self: flex-end;
+}
+
+.progress-bar {
+    position: relative;
+    height: 4px;
+    background-color: #ccc;
+    margin-top: 20px;
+}
+
+.progress-dot {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #4f80ff; /* Purple color */
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    margin-left: 10.004rem;
+}
+
+.roles {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 2rem;
+    padding-top: 1%;
+}
+
+.roles span {
+    flex: 1;
+    text-align: center;
+}
+.new{
+    width: 200px;
+    margin-top: ;
+}
+.new image{
+    width: 100%;
+}
+.ho{
+    cursor: pointer;
+}
+.ink{
+    width: 200px;
+    margin-left: 26rem;
+    padding-right: -15rem;
+    margin-bottom: 10rem ;
+    cursor: pointer;
+}
+.ink img{
+    width: 70%;
+}
+.ink:hover{
+    transform: scale(1.1);
+}
+.container {
+    width: 100%;
+    padding: 0 2%;
+}
